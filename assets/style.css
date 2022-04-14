@@ -1,0 +1,20 @@
+* {
+    margin:0;
+    padding: 0;
+}
+header {
+    padding: 30px 10px;
+    background-color: rgb(34, 204, 204);   
+}
+    header h1 {
+        font-weight: bold;
+        font-size: 30px;
+        color:blueviolet;
+        margin: 0;
+        background-color: wheat;
+        width: 1900px;
+        height: 200px;
+}
+.Sides {
+    color:rgb(11, 8, 187)
+}
