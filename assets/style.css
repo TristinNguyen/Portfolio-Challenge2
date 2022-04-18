@@ -6,19 +6,49 @@
 }
 header {
     padding: 30px 10px;
-    background-color: rgb(34, 204, 204);   
+    background-color: rgb(34, 204, 204); 
+    top: 0;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 35px;
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: auto;
+    background-attachment: fixed;
 }
     header h1 {
+        display: inline;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 36px;
         color:blueviolet;
         margin: 0;
         background-color: wheat;
-        width: 1900px;
-        height: 200px;
+        padding: 5px;
 }
-header nav {
-    margin: 7px 0;
+    header a {
+        text-decoration: none;
+        color: bisque;
+    }
+    header nav{
+        margin: 7px 0;
+    }
+    header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    header nav ul a{
+        padding: 10px 15px;
+        font-size: 2vw;
+        text-shadow: 0 0 1px rgba(0,0,0,.5);
+        text-decoration-line: underline;
+    }
+header nav ul li a:hover {
+    background-color: brown;
+    border-radius: 15px;
 }
 .headers {
     display: flex;
