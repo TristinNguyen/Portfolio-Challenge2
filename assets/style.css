@@ -12,19 +12,23 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 35px;
-    background-color: aliceblue;
+    background-color: gray;
     background-size: cover;
     background-position: auto;
     background-attachment: fixed;
 }
     header h1 {
-        display: inline;
+        display: flex;
         font-weight: bold;
         font-size: 36px;
         color:blueviolet;
-        margin: 0;
-        background-color: wheat;
+        background-color: blue;
+        justify-content: left;
+        border-radius: 5%;
+        margin: 15px 0 0 0;
+
         padding: 5px;
+        align-items: center;
 }
     header a {
         text-decoration: none;
@@ -51,11 +55,12 @@ header nav ul li a:hover {
     border-radius: 15px;
 }
 .headers {
+    color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content:right;
     flex-wrap: wrap;
     padding: 7px 10px 15px 0;
-    background-color: white;
+    background-color: gray;
 }
 .Sides {
     color:rgb(11, 8, 187)
